@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Image_Picker_and_Activity_View" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,7 +17,50 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rlT-lm-D2L">
+                                <rect key="frame" x="274" y="285" width="52" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Mo2-XA-Xgn"/>
+                                    <constraint firstAttribute="width" constant="52" id="U3N-nO-GuP"/>
+                                </constraints>
+                                <state key="normal" title="Pressnt"/>
+                                <connections>
+                                    <action selector="experiment:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Px5-xM-Ffy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMs-ck-yJd">
+                                <rect key="frame" x="20" y="285" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="NdU-wt-ScX"/>
+                                    <constraint firstAttribute="height" constant="30" id="g3p-Mn-bbF"/>
+                                </constraints>
+                                <state key="normal" title="Image"/>
+                                <connections>
+                                    <action selector="ImageExperiment:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c1h-gj-95o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sT7-rd-f3h">
+                                <rect key="frame" x="534" y="285" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="90o-Ay-XSh"/>
+                                    <constraint firstAttribute="width" constant="46" id="K8F-PE-dLW"/>
+                                </constraints>
+                                <state key="normal" title="Alert"/>
+                                <connections>
+                                    <action selector="alertExperiment:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p9W-5a-74o"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rlT-lm-D2L" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Jud-pQ-Xnc"/>
+                            <constraint firstItem="sT7-rd-f3h" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dJ0-aZ-nsK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sT7-rd-f3h" secondAttribute="trailing" id="g1n-ma-pCY"/>
+                            <constraint firstItem="EMs-ck-yJd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iok-zs-gsS"/>
+                            <constraint firstItem="rlT-lm-D2L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lNL-bM-hHz"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="EMs-ck-yJd" secondAttribute="leading" id="z8t-TR-7Yp"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
