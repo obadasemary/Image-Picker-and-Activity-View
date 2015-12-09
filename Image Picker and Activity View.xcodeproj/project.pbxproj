@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFEF54461C1829AF004F6C4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF54451C1829AF004F6C4A /* AppDelegate.swift */; };
+		AFEF54481C1829AF004F6C4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF54471C1829AF004F6C4A /* ViewController.swift */; };
+		AFEF544B1C1829AF004F6C4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFEF54491C1829AF004F6C4A /* Main.storyboard */; };
+		AFEF544D1C1829AF004F6C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFEF544C1C1829AF004F6C4A /* Assets.xcassets */; };
+		AFEF54501C1829AF004F6C4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFEF544E1C1829AF004F6C4A /* LaunchScreen.storyboard */; };
+		AFEF545B1C1829AF004F6C4A /* Image_Picker_and_Activity_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF545A1C1829AF004F6C4A /* Image_Picker_and_Activity_ViewTests.swift */; };
+		AFEF54661C1829AF004F6C4A /* Image_Picker_and_Activity_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF54651C1829AF004F6C4A /* Image_Picker_and_Activity_ViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFEF54571C1829AF004F6C4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFEF543A1C1829AF004F6C4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFEF54411C1829AF004F6C4A;
+			remoteInfo = "Image Picker and Activity View";
+		};
+		AFEF54621C1829AF004F6C4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFEF543A1C1829AF004F6C4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFEF54411C1829AF004F6C4A;
+			remoteInfo = "Image Picker and Activity View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFEF54421C1829AF004F6C4A /* Image Picker and Activity View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Picker and Activity View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFEF54451C1829AF004F6C4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFEF54471C1829AF004F6C4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFEF544A1C1829AF004F6C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFEF544C1C1829AF004F6C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFEF544F1C1829AF004F6C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFEF54511C1829AF004F6C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFEF54561C1829AF004F6C4A /* Image Picker and Activity ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image Picker and Activity ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFEF545A1C1829AF004F6C4A /* Image_Picker_and_Activity_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_Picker_and_Activity_ViewTests.swift; sourceTree = "<group>"; };
+		AFEF545C1C1829AF004F6C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFEF54611C1829AF004F6C4A /* Image Picker and Activity ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image Picker and Activity ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFEF54651C1829AF004F6C4A /* Image_Picker_and_Activity_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_Picker_and_Activity_ViewUITests.swift; sourceTree = "<group>"; };
+		AFEF54671C1829AF004F6C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFEF543F1C1829AF004F6C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEF54531C1829AF004F6C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEF545E1C1829AF004F6C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFEF54391C1829AF004F6C4A = {
+			isa = PBXGroup;
+			children = (
+				AFEF54441C1829AF004F6C4A /* Image Picker and Activity View */,
+				AFEF54591C1829AF004F6C4A /* Image Picker and Activity ViewTests */,
+				AFEF54641C1829AF004F6C4A /* Image Picker and Activity ViewUITests */,
+				AFEF54431C1829AF004F6C4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFEF54431C1829AF004F6C4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFEF54421C1829AF004F6C4A /* Image Picker and Activity View.app */,
+				AFEF54561C1829AF004F6C4A /* Image Picker and Activity ViewTests.xctest */,
+				AFEF54611C1829AF004F6C4A /* Image Picker and Activity ViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFEF54441C1829AF004F6C4A /* Image Picker and Activity View */ = {
+			isa = PBXGroup;
+			children = (
+				AFEF54451C1829AF004F6C4A /* AppDelegate.swift */,
+				AFEF54471C1829AF004F6C4A /* ViewController.swift */,
+				AFEF54491C1829AF004F6C4A /* Main.storyboard */,
+				AFEF544C1C1829AF004F6C4A /* Assets.xcassets */,
+				AFEF544E1C1829AF004F6C4A /* LaunchScreen.storyboard */,
+				AFEF54511C1829AF004F6C4A /* Info.plist */,
+			);
+			path = "Image Picker and Activity View";
+			sourceTree = "<group>";
+		};
+		AFEF54591C1829AF004F6C4A /* Image Picker and Activity ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFEF545A1C1829AF004F6C4A /* Image_Picker_and_Activity_ViewTests.swift */,
+				AFEF545C1C1829AF004F6C4A /* Info.plist */,
+			);
+			path = "Image Picker and Activity ViewTests";
+			sourceTree = "<group>";
+		};
+		AFEF54641C1829AF004F6C4A /* Image Picker and Activity ViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFEF54651C1829AF004F6C4A /* Image_Picker_and_Activity_ViewUITests.swift */,
+				AFEF54671C1829AF004F6C4A /* Info.plist */,
+			);
+			path = "Image Picker and Activity ViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFEF54411C1829AF004F6C4A /* Image Picker and Activity View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFEF546A1C1829AF004F6C4A /* Build configuration list for PBXNativeTarget "Image Picker and Activity View" */;
+			buildPhases = (
+				AFEF543E1C1829AF004F6C4A /* Sources */,
+				AFEF543F1C1829AF004F6C4A /* Frameworks */,
+				AFEF54401C1829AF004F6C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Image Picker and Activity View";
+			productName = "Image Picker and Activity View";
+			productReference = AFEF54421C1829AF004F6C4A /* Image Picker and Activity View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFEF54551C1829AF004F6C4A /* Image Picker and Activity ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFEF546D1C1829AF004F6C4A /* Build configuration list for PBXNativeTarget "Image Picker and Activity ViewTests" */;
+			buildPhases = (
+				AFEF54521C1829AF004F6C4A /* Sources */,
+				AFEF54531C1829AF004F6C4A /* Frameworks */,
+				AFEF54541C1829AF004F6C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFEF54581C1829AF004F6C4A /* PBXTargetDependency */,
+			);
+			name = "Image Picker and Activity ViewTests";
+			productName = "Image Picker and Activity ViewTests";
+			productReference = AFEF54561C1829AF004F6C4A /* Image Picker and Activity ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFEF54601C1829AF004F6C4A /* Image Picker and Activity ViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFEF54701C1829AF004F6C4A /* Build configuration list for PBXNativeTarget "Image Picker and Activity ViewUITests" */;
+			buildPhases = (
+				AFEF545D1C1829AF004F6C4A /* Sources */,
+				AFEF545E1C1829AF004F6C4A /* Frameworks */,
+				AFEF545F1C1829AF004F6C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFEF54631C1829AF004F6C4A /* PBXTargetDependency */,
+			);
+			name = "Image Picker and Activity ViewUITests";
+			productName = "Image Picker and Activity ViewUITests";
+			productReference = AFEF54611C1829AF004F6C4A /* Image Picker and Activity ViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFEF543A1C1829AF004F6C4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Abdelrahman Mohamed";
+				TargetAttributes = {
+					AFEF54411C1829AF004F6C4A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 6KNM32Y4FM;
+					};
+					AFEF54551C1829AF004F6C4A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 6KNM32Y4FM;
+						TestTargetID = AFEF54411C1829AF004F6C4A;
+					};
+					AFEF54601C1829AF004F6C4A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 6KNM32Y4FM;
+						TestTargetID = AFEF54411C1829AF004F6C4A;
+					};
+				};
+			};
+			buildConfigurationList = AFEF543D1C1829AF004F6C4A /* Build configuration list for PBXProject "Image Picker and Activity View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFEF54391C1829AF004F6C4A;
+			productRefGroup = AFEF54431C1829AF004F6C4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFEF54411C1829AF004F6C4A /* Image Picker and Activity View */,
+				AFEF54551C1829AF004F6C4A /* Image Picker and Activity ViewTests */,
+				AFEF54601C1829AF004F6C4A /* Image Picker and Activity ViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFEF54401C1829AF004F6C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEF54501C1829AF004F6C4A /* LaunchScreen.storyboard in Resources */,
+				AFEF544D1C1829AF004F6C4A /* Assets.xcassets in Resources */,
+				AFEF544B1C1829AF004F6C4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEF54541C1829AF004F6C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEF545F1C1829AF004F6C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFEF543E1C1829AF004F6C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEF54481C1829AF004F6C4A /* ViewController.swift in Sources */,
+				AFEF54461C1829AF004F6C4A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEF54521C1829AF004F6C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEF545B1C1829AF004F6C4A /* Image_Picker_and_Activity_ViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEF545D1C1829AF004F6C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEF54661C1829AF004F6C4A /* Image_Picker_and_Activity_ViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFEF54581C1829AF004F6C4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFEF54411C1829AF004F6C4A /* Image Picker and Activity View */;
+			targetProxy = AFEF54571C1829AF004F6C4A /* PBXContainerItemProxy */;
+		};
+		AFEF54631C1829AF004F6C4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFEF54411C1829AF004F6C4A /* Image Picker and Activity View */;
+			targetProxy = AFEF54621C1829AF004F6C4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFEF54491C1829AF004F6C4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFEF544A1C1829AF004F6C4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFEF544E1C1829AF004F6C4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFEF544F1C1829AF004F6C4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFEF54681C1829AF004F6C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFEF54691C1829AF004F6C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFEF546B1C1829AF004F6C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Image Picker and Activity View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.molutions.Image-Picker-and-Activity-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFEF546C1C1829AF004F6C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Image Picker and Activity View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.molutions.Image-Picker-and-Activity-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AFEF546E1C1829AF004F6C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Image Picker and Activity ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.molutions.Image-Picker-and-Activity-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Image Picker and Activity View.app/Image Picker and Activity View";
+			};
+			name = Debug;
+		};
+		AFEF546F1C1829AF004F6C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Image Picker and Activity ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.molutions.Image-Picker-and-Activity-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Image Picker and Activity View.app/Image Picker and Activity View";
+			};
+			name = Release;
+		};
+		AFEF54711C1829AF004F6C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Image Picker and Activity ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.molutions.Image-Picker-and-Activity-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Image Picker and Activity View";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AFEF54721C1829AF004F6C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Image Picker and Activity ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.molutions.Image-Picker-and-Activity-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Image Picker and Activity View";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFEF543D1C1829AF004F6C4A /* Build configuration list for PBXProject "Image Picker and Activity View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEF54681C1829AF004F6C4A /* Debug */,
+				AFEF54691C1829AF004F6C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFEF546A1C1829AF004F6C4A /* Build configuration list for PBXNativeTarget "Image Picker and Activity View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEF546B1C1829AF004F6C4A /* Debug */,
+				AFEF546C1C1829AF004F6C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFEF546D1C1829AF004F6C4A /* Build configuration list for PBXNativeTarget "Image Picker and Activity ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEF546E1C1829AF004F6C4A /* Debug */,
+				AFEF546F1C1829AF004F6C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFEF54701C1829AF004F6C4A /* Build configuration list for PBXNativeTarget "Image Picker and Activity ViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEF54711C1829AF004F6C4A /* Debug */,
+				AFEF54721C1829AF004F6C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFEF543A1C1829AF004F6C4A /* Project object */;
+}
